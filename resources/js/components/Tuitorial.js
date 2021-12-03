@@ -1,11 +1,12 @@
-​​import React from "react";
+import React from "react";
 
 const Tuitorial = () => {
     return (
+        <>
         <div className="container">
             <div className="row m4 p4">
                 <div className="col-md-12">
-                    <h1 className="text-center">Tutorial</h1>
+                    <h1 className="text-center">Tuitorial</h1>
                 </div>
             </div>
             <div className="row m4 p4">
@@ -24,7 +25,7 @@ const Tuitorial = () => {
                         <li><code style={{fontSize:"20px"}}>cd sample-project</code></li>
                         <li><code style={{fontSize:"20px"}}>php artisan serve</code></li>
                     </ul>
-                    <p>Boom! Your Browser Will Automatically Open And Show Laravel Page</p>
+                    <p>Boom Your Browser Will Automatically Open And Show Laravel Page</p>
                 </div>
             </div>
             <div className="row m-4 p4">
@@ -32,7 +33,7 @@ const Tuitorial = () => {
                     <h4 className="p-4 m-4">Getting Started With React JS(JavaScript Frontend Library)</h4>
                     <ul style={{listStyleType:"none"}}>
                         <li>
-                            <h6>Go to Previous Laravel Project Folder</h6>
+                            <h6>Go Previous Laravel Project Folder</h6>
                         </li>
                         <li>
                             <h6>Open Command Prompt</h6>
@@ -44,7 +45,7 @@ const Tuitorial = () => {
                         <li><code style={{fontSize:"20px"}}>npm install</code></li>
                     </ul>
                     <div>
-                        <p>Composer will create node modules and package.json in which react will be installed <br/>Go To</p>
+                        <p>composer will create node modules and package.json where react will be installed <br/>Go To</p>
                     </div>
                     <div>
                         <code style={{fontSize:"20px"}}>
@@ -60,13 +61,13 @@ const Tuitorial = () => {
                         <code style={{fontSize:"20px"}}>
                             'div id = "example"'
                         </code>
-                        <p>If you want to create new features, then go to your js folder and create new js file and call it example js</p>
+                        <p>If you want to create new things then go to js folder and create new js file and call at example js</p>
                     </div>
                 </div>
             </div>
             <div className="row m-4 p4">
                 <div className="col-md-12 text-center ">
-                    <h1>You Can Copy Paste This Code</h1>
+                    <h1>You Can Copy Paste This Codes</h1>
                 <textarea className="form-control p-4" rows={12} 
                 defaultValue=
                 {`composer create-project laravel/laravel --prefer-dist sample-project\ncd sample-project\nphp artisan serve\ncomposer require laravel/ui\nphp artisan ui react\n
@@ -106,6 +107,7 @@ const Tuitorial = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 export default Tuitorial;
