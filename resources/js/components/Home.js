@@ -106,7 +106,7 @@ const Home = () => {
                             <div className="card-body">
                                 <h3 className="card-title">Riya’s Hobbies</h3>
                                 <ul style={{listStyle:"none"}}className="card-text">
-                                    <li>Dance</li>
+                                    <li>Dancing</li>
                                     <li>Formula 1</li>
                                     <li>Badminton</li>
                                 </ul>
