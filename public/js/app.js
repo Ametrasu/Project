@@ -8662,7 +8662,7 @@ function References() {
               children: "Riya Singhal(500899003)"
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("ul", {
               style: {
-                listStyle: "none"
+                fontSize: "14px"
               },
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
                 children: " Developed the Front-End using React"
@@ -8681,7 +8681,7 @@ function References() {
               children: "Aayan Sabri(500922637)"
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("ul", {
               style: {
-                listStyle: "none"
+                fontSize: "14px"
               },
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
                 children: " Developed the Back-End using Laravel"

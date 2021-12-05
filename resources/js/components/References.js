@@ -9,7 +9,7 @@ function References () {
                         <h1 className="p-4">Credits</h1>
                         <div className="col-md-4">
                             <h3 style={{color:"#8B0000"}}>Riya Singhal(500899003)</h3>
-                            <ul style={{listStyle:"none"}}>
+                            <ul style={{fontSize:"14px"}}>
                                 <li> Developed the Front-End using React</li>
                                 <li> Designed Home, FrameWork and References pages</li>
                                 <li> Researched info and images</li>
@@ -17,7 +17,7 @@ function References () {
                         </div>
                         <div className="col-md-4">
                             <h3 style={{color:"#00008b"}}>Aayan Sabri(500922637)</h3>
-                            <ul style={{listStyle:"none"}}>
+                            <ul style={{fontSize:"14px"}}>
                                 <li> Developed the Back-End using Laravel</li>
                                 <li> Designed Install, Tutorial and Conclusion pages</li>
                                 <li> Set up website on external server using Heroku</li>
