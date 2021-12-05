@@ -9,15 +9,15 @@ function References () {
                         <h1 className="p-4">Credits</h1>
                         <div className="col-md-4">
                             <h3 style={{color:"#8B0000"}}>Riya Singhal(500899003)</h3>
-                            <ul>
+                            <ul style={{listStyle:"none"}}>
                                 <li> Developed the Front-End using React</li>
                                 <li> Designed Home, FrameWork and References pages</li>
                                 <li> Researched info and images</li>
                             </ul>
                         </div>
                         <div className="col-md-4">
-                            <h3 style={{color:"#00008"}}>Aayan Sabri(500922637)</h3>
-                            <ul>
+                            <h3 style={{color:"#00008b"}}>Aayan Sabri(500922637)</h3>
+                            <ul style={{listStyle:"none"}}>
                                 <li> Developed the Back-End using Laravel</li>
                                 <li> Designed Install, Tutorial and Conclusion pages</li>
                                 <li> Set up website on external server using Heroku</li>
@@ -25,7 +25,6 @@ function References () {
                         </div>
                 
                 <div className="row">
-                <h1 className="p-4">References</h1>
                     <div className="col-md-12">
                         <h1 style={{fontWeight:"bold"}}>References:</h1><br/>
                         <a href="https://laravel.com/docs/8.x" target="_blank" rel="noopener noreferrer">Larvel Documentation</a>
