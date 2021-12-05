@@ -3,9 +3,30 @@ import React from "react";
 function References () {
     return (
         <>
-        <div className="container display-4">
-            <div className="row">
+            <div className="container display-4">
+        
+         <div className="row">
                 <div className="col-md-12">
+            <h1 style="font-weight:bold;">Credits:</h1>
+        </br> <h3 style="color:#8B0000;">Riya Singhal(500899003)</h3>
+            <ul>
+                                    <li> Developed the Front-End using React</li>
+                                    <li> Designed Home, FrameWork and References pages</li>
+                                    <li> Researched info and images</li>
+            </ul></br>
+        </div>
+          <div className="row">
+                <div className="col-md-12">
+        </br> <h3 style="color:#00008;">Aayan Sabri(500922637)</h3>
+            <ul>
+                                    <li> Developed the Back-End using Laravel</li>
+                                    <li> Designed Install, Tutorial and Conclusion pages</li>
+                                    <li> Set up website on external server using Heroku</li>
+            </ul></br>
+            </div>    
+            <div className="row">
+            <div className="col-md-12">
+        <h1 style="font-weight:bold;">References:</h1></br>
                     <a href="https://laravel.com/docs/8.x" target="_blank" rel="noopener noreferrer">Larvel Documentation</a>
                 </div>    
             </div>
@@ -35,14 +56,6 @@ function References () {
                 </div>
             </div>
         </div>
-        <div style="font-weight:bold;">
-            <h1>Credits:</h1>
-            <h3 style="color:#8B0000;">Riya Singhal-500899003</h3>
-            <br/><p>Responsibilities: Developed the Front-End using React. Designed Home, FrameWork and References page, set up website on external server using DigitalOcean.</p>
-            <br/><h3 style="color:#00008B;">Aayan Sabri-500922637</h3>
-            <br/><p>Responsibilities: Developed the Back-End using Laravel. Designed Install, Tutorial and Conclusion pages. Researched for info and images. </p>
-        </div>
-
         </>
     );
 }
